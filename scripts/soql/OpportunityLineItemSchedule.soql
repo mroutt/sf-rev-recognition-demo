@@ -1,0 +1,2 @@
+select opportunitylineitemid, revenue, createddate from OpportunityLineItemSchedule
+ORDER BY createddate DESC

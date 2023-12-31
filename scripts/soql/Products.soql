@@ -1,0 +1,1 @@
+select name, Product_Type__c from product2

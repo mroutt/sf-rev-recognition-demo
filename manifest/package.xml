@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    <types>
+        <members>Product</members>
+        <name>Settings</name>
+    </types>
+
+    <types>
+
+        <members>Opportunity.Term_End_Date__c</members>
+        <members>Opportunity.Term_Start_Date__c</members>
+        <members>Opportunity.Update_Forecast__c</members>
+
+        <members>OpportunityLineItem.End_Date__c</members>
+        <members>OpportunityLineItem.Manual_Adjustment__c</members>
+        <members>OpportunityLineItem.Product_Line_Months__c</members>
+        <members>OpportunityLineItem.Product_Type__c</members>
+        <members>OpportunityLineItem.YR1__c</members>
+        <members>OpportunityLineItem.YR1_One_Time__c</members>
+        <members>OpportunityLineItem.YR2__c</members>
+        <members>OpportunityLineItem.YR3__c</members>
+        <members>OpportunityLineItem.YR4__c</members>
+        <members>OpportunityLineItem.YR5__c</members>
+
+        <members>OpportunityLineItemSchedule.Product_ID__c</members>
+        <members>OpportunityLineItemSchedule.Term__c</members>        
+        <members>OpportunityLineItemSchedule.Term_End_Date__c</members>
+        <members>OpportunityLineItemSchedule.Term_Start_Date__c</members>
+
+        <members>Product2.Product_Type__c</members>
+
+        <name>CustomField</name>
+    </types>
+
+    <types>
+        <members>Admin</members>
+        <name>Profile</name>
+    </types>
+
+    <types>
+        <members>Opportunity-Revenue Recognition</members>
+        <members>Product2-Revenue Recognition</members>
+        <members>OpportunityLineItem-Revenue Recognition</members>
+        <name>Layout</name>
+    </types>
+
+    <types>
+        <members>Public_Reports/Schedule_Report_Basic_AsL2</members>
+        <name>Report</name>
+    </types>
+
+    <types>
+        <members>Opportunity_Product_Record_Page</members>
+        <name>FlexiPage</name>
+    </types>
+
+    <version>58.0</version>
+</Package>
