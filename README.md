@@ -1,6 +1,7 @@
 # What is this Repo?
 
 This is the Apex code to support my YouTube video that demonstrates a simple Salesforce Revenue Recognition process using Schedule records.
+https://youtu.be/M_JLnXC6X2k?si=sXj69hp8AN08yJ9T
 
 ## How do I use this Repo?
 
