@@ -1,18 +1,17 @@
-# Salesforce DX Project: Next Steps
+# What is this Repo?
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+This is the Apex code to support my YouTube video that demonstrates a simple Salesforce Revenue Recognition process using Schedule records.
 
-## How Do You Plan to Deploy Your Changes?
+## How do I use this Repo?
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+Because this repo relies on some specific Salesforce Org settings, you will want to use this project in a new Salesforce Sratch Org. Once your Salesforce CLI is authenticated to an Org that is set up as a "Dev Hub", do the following:
 
-## Configure Your Salesforce DX Project
-
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
-
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+1. Open this project in Visual Studio Code.
+2. Run "SFDX: Create a Default Scratch Org..." from the VSCode Command Palette.
+3. Select the project-scratch-def.json (it should be the default).
+4. Wait for the Scratch Org creation to complete.
+5. Go to the VSCode Terminal
+6. Execute the command "sf project deploy start"
+7. Navigate to the file "scripts/apex/DemoAccountAndProducts.apex"
+8. With that file open, run "SFDX: Execute Anonymous Apex with Editor Contents" from the VSCode Command Palette.
+9. Open the Scratch Org and follow along with the YouTube demo video.
